@@ -1,11 +1,11 @@
-import { NextPage } from "next";
+import { NextPage } from 'next';
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
     <div>
-      <p>hello</p>
+      <h1>Todoアプリ</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Home;
+export default Index;
